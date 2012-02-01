@@ -12,9 +12,9 @@ public static void main(String[] args)
   try {
     Connection con=null;
     con = DriverManager.getConnection(
-      "jdbc:exa:192.168.235.84..86:8563",
-      "lwlodarczyk",
-      "lwl0d4rczyk"
+      "jdbc:exa:192.168.1.1..2:8563",
+      "user",
+      "password"
     );
   Statement stmt=null;
   stmt = con.createStatement();
